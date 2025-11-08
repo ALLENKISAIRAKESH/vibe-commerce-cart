@@ -1,0 +1,1 @@
+This package is production-ready. Build frontend then start backend in production to serve static app.

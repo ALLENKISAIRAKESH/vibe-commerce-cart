@@ -1,0 +1,1 @@
+import React from 'react'; export default function ProductCard({ product, onAdd }){ return (<div className='card'><div className='img' aria-hidden='true'>{product.image ? <img src={product.image} alt={product.name} /> : '🛒'}</div><h3>{product.name}</h3><p className='price'>₹{product.price.toFixed(2)}</p><button onClick={onAdd}>Add to Cart</button></div>) }
